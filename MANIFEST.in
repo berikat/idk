@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include indaeko *.css
+recursive-include indaeko *.csv
+recursive-include indaeko *.html
+recursive-include indaeko *.ico
+recursive-include indaeko *.js
+recursive-include indaeko *.json
+recursive-include indaeko *.md
+recursive-include indaeko *.png
+recursive-include indaeko *.py
+recursive-include indaeko *.svg
+recursive-include indaeko *.txt
+recursive-exclude indaeko *.pyc
