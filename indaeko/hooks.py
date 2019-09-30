@@ -12,6 +12,7 @@ app_email = "devsmart@smartconsultant.co"
 app_license = "SMART"
 
 
+
 fixtures = [
  
         
@@ -21,6 +22,7 @@ fixtures = [
         {"dt":"Custom Field", "filters": [["dt", "in", ("Purchase Order","Purchase Order Item","Purchase Receipt","Purchase Receipt Item","Purchase Invoice","Purchase Invoice Item","Work Order","Work Order Item","Stock Entry","Stock Entry Detail","Delivery Note","Delivery Note Item","Payment Entry","Payment Entry Reference","Item","Item Barcode","BOM","BOM Item","Journal Entry","Journal Entry Account" ,"Sales Invoice Item", "Sales Invoice")]]}, 
                 "Custom Script", "Property Setter"
            
+
                 ]
 
 # Includes in <head>

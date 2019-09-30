@@ -125,6 +125,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Receipt",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -145,6 +146,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Stock Entry",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -265,6 +267,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Warehouse",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -745,6 +748,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -889,6 +893,7 @@
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
+
   "field_name": "is_return",
   "modified": "2019-08-17 15:22:21.270198",
   "name": "Purchase Invoice-is_return-hidden",
@@ -1765,6 +1770,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Work Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2025,6 +2031,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Customer",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2038,6 +2045,7 @@
   "property": "read_only_onload",
   "property_type": "Check",
   "value": null
+
  },
  {
   "_assign": null,
@@ -2045,6 +2053,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2058,6 +2067,7 @@
   "property": "read_only_onload",
   "property_type": "Check",
   "value": null
+
  },
  {
   "_assign": null,
@@ -2065,6 +2075,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2078,6 +2089,7 @@
   "property": "in_list_view",
   "property_type": "Check",
   "value": "0"
+
  },
  {
   "_assign": null,
@@ -2085,11 +2097,13 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note Item",
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
   "field_name": "item_name",
+
   "modified": "2019-09-11 14:15:53.195822",
   "name": "Delivery Note Item-item_name-in_list_view",
   "parent": null,
@@ -2225,6 +2239,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Journal Entry",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2245,6 +2260,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2348,6 +2364,7 @@
   "doc_type": "Payment Entry",
   "docstatus": 0,
   "doctype": "Property Setter",
+
   "doctype_or_field": "DocField",
   "field_name": "references",
   "modified": "2019-09-19 16:17:03.908112",
@@ -2385,6 +2402,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2505,6 +2523,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2512,6 +2531,7 @@
   "field_name": "tax_id",
   "modified": "2019-05-08 10:00:32.565787",
   "name": "Delivery Note-tax_id-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2525,6 +2545,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2538,6 +2559,7 @@
   "property": "print_hide",
   "property_type": "Check",
   "value": "0"
+
  },
  {
   "_assign": null,
@@ -2545,6 +2567,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2556,6 +2579,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -2565,6 +2589,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2576,6 +2601,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
+
   "property_type": "Check",
   "value": "1"
  },
@@ -2585,6 +2611,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2592,6 +2619,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:35.561215",
   "name": "Delivery Note-rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2605,6 +2633,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2612,6 +2641,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:35.686894",
   "name": "Delivery Note-rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2625,6 +2655,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2632,6 +2663,7 @@
   "field_name": "base_rounded_total",
   "modified": "2019-05-08 10:00:36.218304",
   "name": "Purchase Order-base_rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2645,6 +2677,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2652,12 +2685,15 @@
   "field_name": "base_rounded_total",
   "modified": "2019-05-08 10:00:36.331628",
   "name": "Purchase Order-base_rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
   "property_type": "Check",
+
   "value": "1"
+
  },
  {
   "_assign": null,
@@ -2665,6 +2701,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2672,6 +2709,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:36.446215",
   "name": "Purchase Order-rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2685,6 +2723,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2692,12 +2731,15 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:36.561834",
   "name": "Purchase Order-rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
   "property_type": "Check",
+
   "value": "0"
+
  },
  {
   "_assign": null,
@@ -2705,6 +2747,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2712,6 +2755,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:37.448224",
   "name": "Delivery Note-in_words-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2725,6 +2769,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Delivery Note",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2732,6 +2777,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:37.573419",
   "name": "Delivery Note-in_words-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2745,6 +2791,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2752,6 +2799,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:37.904243",
   "name": "Purchase Order-in_words-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2765,6 +2813,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2772,12 +2821,15 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:38.017602",
   "name": "Purchase Order-in_words-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
   "property_type": "Check",
+
   "value": "0"
+
  },
  {
   "_assign": null,
@@ -2785,6 +2837,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Invoice",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2792,6 +2845,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:38.149081",
   "name": "Purchase Invoice-in_words-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2805,6 +2859,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Invoice",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2812,6 +2867,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:38.279646",
   "name": "Purchase Invoice-in_words-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2825,6 +2881,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2892,6 +2949,7 @@
   "field_name": "item_code",
   "modified": "2019-05-08 10:00:47.767049",
   "name": "Item-item_code-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2905,6 +2963,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2916,6 +2975,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "reqd",
+
   "property_type": "Check",
   "value": "1"
  },
@@ -2925,6 +2985,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Item Barcode",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2952,6 +3013,7 @@
   "field_name": "barcodes",
   "modified": "2019-05-08 10:00:48.525385",
   "name": "Item-barcodes-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -2965,6 +3027,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2976,6 +3039,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -2985,6 +3049,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Invoice",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -2992,6 +3057,7 @@
   "field_name": "scan_barcode",
   "modified": "2019-05-08 10:00:49.215567",
   "name": "Purchase Invoice-scan_barcode-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -3005,6 +3071,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Receipt",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3016,6 +3083,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
+
   "property_type": "Check",
   "value": "1"
  },
@@ -3025,6 +3093,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Receipt",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3032,12 +3101,15 @@
   "field_name": "shipping_rule",
   "modified": "2019-09-22 12:01:48.544541",
   "name": "Purchase Receipt-shipping_rule-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
   "property_type": "Check",
+
   "value": "1"
+
  },
  {
   "_assign": null,
@@ -3045,6 +3117,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Receipt Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3052,11 +3125,13 @@
   "field_name": "barcode",
   "modified": "2019-09-22 13:58:41.292088",
   "name": "Purchase Receipt Item-barcode-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
   "property_type": "Check",
+
   "value": "1"
  },
  {
@@ -3078,6 +3153,7 @@
   "property": "read_only_onload",
   "property_type": "Check",
   "value": null
+
  },
  {
   "_assign": null,
@@ -3085,6 +3161,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Receipt Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3096,6 +3173,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
+
   "property_type": "Check",
   "value": "1"
  },
@@ -3105,6 +3183,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Purchase Receipt Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3932,6 +4011,7 @@
   "field_name": "naming_series",
   "modified": "2019-05-08 10:00:26.873195",
   "name": "Employee-naming_series-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -3945,6 +4025,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Employee",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3958,6 +4039,7 @@
   "property": "reqd",
   "property_type": "Check",
   "value": "1"
+
  },
  {
   "_assign": null,
@@ -3965,6 +4047,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Employee",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3976,6 +4059,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "reqd",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -3985,6 +4069,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Employee",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -3998,6 +4083,7 @@
   "property": "hidden",
   "property_type": "Check",
   "value": "1"
+
  },
  {
   "_assign": null,
@@ -4009,9 +4095,11 @@
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
+
   "field_name": "tax_id",
   "modified": "2019-05-08 10:00:31.985054",
   "name": "Sales Order-tax_id-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4029,9 +4117,11 @@
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
+
   "field_name": "tax_id",
   "modified": "2019-05-08 10:00:32.118190",
   "name": "Sales Order-tax_id-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4045,6 +4135,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4052,6 +4143,7 @@
   "field_name": "base_rounded_total",
   "modified": "2019-05-08 10:00:33.725343",
   "name": "Quotation-base_rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4065,6 +4157,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4072,12 +4165,15 @@
   "field_name": "base_rounded_total",
   "modified": "2019-05-08 10:00:33.854734",
   "name": "Quotation-base_rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
   "property_type": "Check",
+
   "value": "1"
+
  },
  {
   "_assign": null,
@@ -4085,6 +4181,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4092,6 +4189,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:33.955909",
   "name": "Quotation-rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4105,6 +4203,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4112,6 +4211,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:34.061456",
   "name": "Quotation-rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4125,6 +4225,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4132,6 +4233,7 @@
   "field_name": "base_rounded_total",
   "modified": "2019-05-08 10:00:34.168387",
   "name": "Sales Order-base_rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4145,6 +4247,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4152,12 +4255,15 @@
   "field_name": "base_rounded_total",
   "modified": "2019-05-08 10:00:34.287419",
   "name": "Sales Order-base_rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
   "property_type": "Check",
+
   "value": "1"
+
  },
  {
   "_assign": null,
@@ -4165,6 +4271,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4172,6 +4279,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:34.406340",
   "name": "Sales Order-rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4185,6 +4293,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4192,6 +4301,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:34.565644",
   "name": "Sales Order-rounded_total-print_hide",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4205,6 +4315,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4216,6 +4327,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "hidden",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -4225,6 +4337,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4236,6 +4349,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
+
   "property_type": "Check",
   "value": "1"
  },
@@ -4245,6 +4359,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4252,6 +4367,7 @@
   "field_name": "rounded_total",
   "modified": "2019-05-08 10:00:36.021181",
   "name": "Supplier Quotation-rounded_total-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4265,6 +4381,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4278,6 +4395,7 @@
   "property": "print_hide",
   "property_type": "Check",
   "value": "0"
+
  },
  {
   "_assign": null,
@@ -4285,6 +4403,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4292,6 +4411,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:36.674878",
   "name": "Quotation-in_words-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4305,6 +4425,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4316,6 +4437,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -4325,6 +4447,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4332,6 +4455,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:36.892737",
   "name": "Sales Order-in_words-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4345,6 +4469,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4356,6 +4481,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -4365,6 +4491,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4372,6 +4499,7 @@
   "field_name": "in_words",
   "modified": "2019-05-08 10:00:37.697907",
   "name": "Supplier Quotation-in_words-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4385,6 +4513,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Supplier Quotation",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4396,6 +4525,7 @@
   "parentfield": null,
   "parenttype": null,
   "property": "print_hide",
+
   "property_type": "Check",
   "value": "0"
  },
@@ -4405,6 +4535,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Clinical Procedure Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4412,6 +4543,7 @@
   "field_name": "barcode",
   "modified": "2019-05-08 10:00:48.334024",
   "name": "Clinical Procedure Item-barcode-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4425,6 +4557,7 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Stock Reconciliation Item",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -4432,6 +4565,7 @@
   "field_name": "barcode",
   "modified": "2019-05-08 10:00:48.396618",
   "name": "Stock Reconciliation Item-barcode-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4445,13 +4579,17 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Material Request",
+
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
   "field_name": "scan_barcode",
+
   "modified": "2019-05-08 10:00:48.657882",
   "name": "Material Request-scan_barcode-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
@@ -4465,13 +4603,17 @@
   "_liked_by": null,
   "_user_tags": null,
   "default_value": null,
+
   "doc_type": "Sales Order",
+
   "docstatus": 0,
   "doctype": "Property Setter",
   "doctype_or_field": "DocField",
   "field_name": "scan_barcode",
+
   "modified": "2019-05-08 10:00:48.724374",
   "name": "Sales Order-scan_barcode-hidden",
+
   "parent": null,
   "parentfield": null,
   "parenttype": null,
