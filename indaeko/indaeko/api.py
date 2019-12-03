@@ -25,10 +25,11 @@ concat(a.`name`,'-',b.`name`) id
 , b.total_weight net_weight
 , a.modified
 , a.remark_sales_invoice
+, a.docstatus
 FROM `tabSales Invoice` a
 JOIN `tabSales Invoice Item` b ON a.`name` = b.`parent` AND b.`parenttype` = 'Sales Invoice'
 JOIN `tabCustomer` c ON a.title = c.`name`
-WHERE a.docstatus != 2 and a.modified >= %s and a.modified < %s
+WHERE a.modified >= %s and a.modified < %s
 limit %s,%s""", (from_date, to_date, int(limit_start), int(limit_page_length)), as_dict=True)
     return get_response(datalist)
 
