@@ -26,6 +26,7 @@ concat(a.`name`,'-',b.`name`) id
 , a.modified
 , a.remark_sales_invoice
 , a.docstatus
+, b.bom
 FROM `tabSales Invoice` a
 JOIN `tabSales Invoice Item` b ON a.`name` = b.`parent` AND b.`parenttype` = 'Sales Invoice'
 JOIN `tabCustomer` c ON a.title = c.`name`
